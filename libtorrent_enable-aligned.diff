@@ -1,0 +1,10 @@
+--- APKBUILD.orig	2019-01-27 12:41:04.853791073 +0100
++++ APKBUILD	2019-01-27 12:41:04.853791073 +0100
+@@ -26,6 +26,7 @@
+ 		--build=$CBUILD \
+ 		--host=$CHOST \
+ 		--prefix=/usr \
++		--enable-aligned \
+ 		--disable-debug \
+ 		--disable-instrumentation
+ 	make

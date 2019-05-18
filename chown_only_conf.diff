@@ -1,0 +1,10 @@
+--- 50-config.orig	2019-01-22 15:35:14.000000000 +0100
++++ 50-config	2019-01-28 20:47:43.820106150 +0100
+@@ -38,6 +38,6 @@
+ chown -R abc:abc \
+ 	/config \
+ 	/run \
+-	/app/rutorrent
++	/app/rutorrent/conf
+ 
+ chmod -R 755 /config/rutorrent/profiles
